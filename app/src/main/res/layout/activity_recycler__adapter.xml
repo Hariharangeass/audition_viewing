@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    >
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_marginTop="30sp">
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:textSize="18sp"
+            android:padding="5sp"
+            android:text=" PROJECT NAME "
+            android:layout_column="1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:textSize="18sp"
+            android:padding="5sp"
+            android:text=" PROJECT NAME zxzxzxaaaaxaaxaxaxxaaasdddddddddewwwwwwwwwwwwwwwwwwwd"
+            android:id="@+id/proj_name"
+            android:layout_column="2"/>
+
+    </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-smallcaps"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textSize="18sp"
+                android:padding="5sp"
+                android:text=" PROJECT TYPE "
+                android:layout_column="1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-smallcaps"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textSize="18sp"
+                android:padding="5sp"
+                android:text=" PROJECT NAME "
+                android:id="@+id/proj_type"
+                android:layout_column="2"/>
+
+        </TableRow>
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-smallcaps"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textSize="18sp"
+                android:padding="5sp"
+                android:text=" PROJECT DESCRIPTION "
+                android:layout_column="1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-smallcaps"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textSize="18sp"
+                android:padding="5sp"
+                android:text=" PROJECT NAME "
+                android:id="@+id/proj_desc"
+                android:layout_column="2"/>
+
+
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-smallcaps"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textSize="18sp"
+                android:padding="5sp"
+                android:text=" ROLE DESCRIPTION "
+                android:layout_column="1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-smallcaps"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textSize="18sp"
+                android:padding="5sp"
+                android:text=" PROJECT NAME "
+                android:id="@+id/role_desc"
+                android:layout_column="2"/>
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-smallcaps"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textSize="18sp"
+                android:padding="5sp"
+                android:text=" FEATURES "
+                android:layout_column="1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-smallcaps"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textSize="18sp"
+                android:padding="5sp"
+                android:text=" PROJECT NAME "
+                android:id="@+id/features"
+                android:layout_column="2"/>
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-smallcaps"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textSize="18sp"
+                android:padding="5sp"
+                android:text=" SHOOTING LOCATION "
+                android:layout_column="1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-smallcaps"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textSize="18sp"
+                android:padding="5sp"
+                android:text=" PROJECT NAME "
+                android:id="@+id/shoot_loc"
+                android:layout_column="2"/>
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-smallcaps"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textSize="18sp"
+                android:padding="5sp"
+                android:text=" AUDITION LOCATION "
+                android:layout_column="1"/>
+
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:textSize="18sp"
+            android:padding="5sp"
+            android:text=" PROJECT NAME sxss"
+            android:id="@+id/audition_loc"
+            android:layout_column="2"/>
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-smallcaps"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textSize="18sp"
+                android:padding="5sp"
+                android:text=" VALID FROM "
+                android:layout_column="1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-smallcaps"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textSize="18sp"
+                android:padding="5sp"
+                android:text=" PROJECT NAME "
+                android:id="@+id/valid_from"
+                android:layout_column="2"/>
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-smallcaps"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textSize="18sp"
+                android:padding="5sp"
+                android:text=" VALID FROM "
+                android:layout_column="1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-smallcaps"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textSize="18sp"
+                android:padding="5sp"
+                android:text=" PROJECT NAMEjjjjjjjjjjjssssssssss "
+                android:id="@+id/valid_to"
+                android:layout_column="2"/>
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-smallcaps"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textSize="18sp"
+                android:padding="5sp"
+                android:text=" Contact "
+                android:layout_column="1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-smallcaps"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textSize="18sp"
+                android:padding="5sp"
+                android:text=" PROJECT NAME sxsxassxxxxxxxxxxxaxas"
+                android:id="@+id/contact_no"
+                android:layout_column="2"/>
+
+
+        </TableRow>
+
+<Button
+    android:layout_marginTop="15dp"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:text="APPLY"
+    android:id="@+id/accept"/>
+</TableLayout>
+
+ </LinearLayout>
